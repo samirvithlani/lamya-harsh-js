@@ -1,0 +1,23 @@
+sync
+
+1 process --> start --> 2 process --> end
+
+non sync
+
+1 proecc [com...] ---> 2process
+
+by default js file non sync
+
+------------------- ---> time
+#_#-#-#-#-#-#-#-#-#-#-#-#--#-#-#-#-#-#-#-#-#-#-#-#-#undef## 
+
+sync : promise class
+
+
+promise :
+1. pending
+2. resolve
+3. reject
+
+
+
