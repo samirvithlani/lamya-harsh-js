@@ -63,3 +63,8 @@ const printUser = async () => {
 };
 
 printUser();
+
+
+async function getData(){
+//syntax ...
+}
