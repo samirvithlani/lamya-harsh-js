@@ -21,3 +21,36 @@ promise :
 
 
 
+
+API : application programming interface:
+----------------------------------------
+java : ---> js
+classs obj : --- js call *
+
+url expose: -->data
+
+google map  :- zomato -->
+
+google map : java | .net | ---> androis | ios
+api expose : -> url --> 
+
+rest api :
+request method :
+
+1. get    : read
+2. post   : create
+3. put    : update
+4. delete : del
+
+fetch function
+
+google form : api --> POST
+
+amazone : -> GET 
+
+
+
+
+
+
+
