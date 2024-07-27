@@ -1,8 +1,12 @@
 const createTable = async () => {
+  const loader = document.getElementById("loader");
+  loader.innerHTML = "Loading...";
   var data = await fetch("https://node5.onrender.com/user/user", {
     method: "GET",
   });
+  //loader.innerHTML = "";
   var jsonData = await data.json();
+  
 
   const tabl = document.getElementById("table");
 
