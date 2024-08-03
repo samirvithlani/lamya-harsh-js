@@ -73,7 +73,8 @@ const addUser = async () => {
     const res = await fetch("https://node5.onrender.com/user/user",{
         method:"POST",
         headers:{
-            "Content-Type":"application/json"
+            "Content-Type":"application/json",
+            "Authorization":"Bearer 87a6e693c6ad5316132fb9df78c80553c9fe17fbee4945d3704e2b55fd94c2b5"
         },
         body:JSON.stringify(user)
     })
