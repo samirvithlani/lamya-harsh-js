@@ -6,7 +6,8 @@ const loadDoc = () => {
   xhr.open("GET", "https://node5.onrender.com/user/user", true);
   xhr.onload = () => {
     console.log(xhr.responseText);
-    console.log(JSON.parse(xhr.responseText));
+    var users = JSON.parse(xhr.responseText)
+    
     output.innerHTML = xhr.responseText;
   };
  xhr.send();
